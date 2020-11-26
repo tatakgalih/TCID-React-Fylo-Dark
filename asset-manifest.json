@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/TCID-React-Fylo-Dark/static/css/main.8d211304.chunk.css",
+    "main.js": "/TCID-React-Fylo-Dark/static/js/main.4c0f9af9.chunk.js",
+    "main.js.map": "/TCID-React-Fylo-Dark/static/js/main.4c0f9af9.chunk.js.map",
+    "runtime-main.js": "/TCID-React-Fylo-Dark/static/js/runtime-main.9e4b7320.js",
+    "runtime-main.js.map": "/TCID-React-Fylo-Dark/static/js/runtime-main.9e4b7320.js.map",
+    "static/js/2.5a900662.chunk.js": "/TCID-React-Fylo-Dark/static/js/2.5a900662.chunk.js",
+    "static/js/2.5a900662.chunk.js.map": "/TCID-React-Fylo-Dark/static/js/2.5a900662.chunk.js.map",
+    "static/js/3.0d2d36f1.chunk.js": "/TCID-React-Fylo-Dark/static/js/3.0d2d36f1.chunk.js",
+    "static/js/3.0d2d36f1.chunk.js.map": "/TCID-React-Fylo-Dark/static/js/3.0d2d36f1.chunk.js.map",
+    "index.html": "/TCID-React-Fylo-Dark/index.html",
+    "static/css/main.8d211304.chunk.css.map": "/TCID-React-Fylo-Dark/static/css/main.8d211304.chunk.css.map",
+    "static/js/2.5a900662.chunk.js.LICENSE.txt": "/TCID-React-Fylo-Dark/static/js/2.5a900662.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/TCID-React-Fylo-Dark/static/media/bg-curvy-desktop.953dbf39.svg",
+    "static/media/icon-access-anywhere.2856c661.svg": "/TCID-React-Fylo-Dark/static/media/icon-access-anywhere.2856c661.svg",
+    "static/media/icon-any-file.fc9b91ba.svg": "/TCID-React-Fylo-Dark/static/media/icon-any-file.fc9b91ba.svg",
+    "static/media/icon-arrow.2491a46a.svg": "/TCID-React-Fylo-Dark/static/media/icon-arrow.2491a46a.svg",
+    "static/media/icon-collaboration.6c80c0a4.svg": "/TCID-React-Fylo-Dark/static/media/icon-collaboration.6c80c0a4.svg",
+    "static/media/icon-security.b6a932b6.svg": "/TCID-React-Fylo-Dark/static/media/icon-security.b6a932b6.svg",
+    "static/media/illustration-intro.c20d8525.png": "/TCID-React-Fylo-Dark/static/media/illustration-intro.c20d8525.png",
+    "static/media/illustration-stay-productive.5d7a50ea.png": "/TCID-React-Fylo-Dark/static/media/illustration-stay-productive.5d7a50ea.png",
+    "static/media/logo.f5363383.svg": "/TCID-React-Fylo-Dark/static/media/logo.f5363383.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e4b7320.js",
+    "static/js/2.5a900662.chunk.js",
+    "static/css/main.8d211304.chunk.css",
+    "static/js/main.4c0f9af9.chunk.js"
+  ]
+}
