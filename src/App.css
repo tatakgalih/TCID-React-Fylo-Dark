@@ -1,38 +1,228 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1em;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+.button-cta {
+  display: inline-block;
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  padding: 1em 5em;
+  font-size: 1.25em;
+  border-radius: 2em;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+header {
+  background-color: hsl(217, 28%, 15%);
+}
+header .header-area {
+  padding: 1.25em 0;
+  justify-content: space-between;
   align-items: center;
+}
+header .header-area img {
+  max-width: 176px;
+}
+/* header .header-area nav {
+  display: none;
+}
+header .header-area nav.show {
+  display: block;
+} */
+header .header-area nav ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+}
+header .header-area nav ul li {
+  margin-left: 1.5em;
+}
+header .header-area nav ul li a {
+  text-transform: capitalize;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.25em;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+}
+section.hero-section {
+  background-color: hsl(217, 28%, 15%);
+  background-image: url(../src/Images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+section.hero-section .hero-area {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 2em 0 10em;
+  color: hsl(0, 0%, 100%);
 }
-
-.App-link {
-  color: #61dafb;
+section.hero-section .hero-area div {
+  text-align: center;
+  width: 50%;
+  font-family: "Raleway", sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+section.hero-section .hero-area div img {
+  max-width: 720px;
+}
+section.hero-section .hero-area div h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+section.hero-section .hero-area div p {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+section.features-section {
+  background-color: hsl(218, 28%, 13%);
+}
+section.features-section .features-area {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section.features-section .features-area .features-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  padding: 0 5%;
+  margin-bottom: 2em;
+  color: hsl(0, 0%, 100%);
+  font-family: "Open Sans", sans-serif;
+}
+section.features-section .features-area .features-item img {
+  height: 60px;
+  width: auto;
+}
+section.features-section .features-area .features-item p {
+  text-align: center;
+  line-height: 1.5;
+}
+section.features-section .features-area .features-item p.features-title {
+  font-weight: 700;
+  font-size: 1.25em;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+}
+section.productive-section {
+  background-color: hsl(218, 28%, 13%);
+}
+section.productive-section .productive-area {
+  padding: 3em 0;
+  align-items: center;
+}
+section.productive-section .productive-image,
+section.productive-section .productive-text {
+  width: 50%;
+  padding: 0 6em;
+}
+section.productive-section .productive-image img {
+  max-width: 615px;
+}
+section.productive-section .productive-text {
+  color: hsl(0, 0%, 100%);
+}
+section.productive-section .productive-text p.title-section {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+section.productive-section .productive-text p {
+  font-size: 1.5em;
+}
+section.productive-section .productive-text a {
+  display: inline-flex;
+  align-items: center;
+  color: hsl(176, 68%, 64%);
+}
+section.productive-section .productive-text a span {
+  margin-left: 5px;
+  margin-bottom: -6px;
+}
+section.testimonial-section {
+  background-color: hsl(218, 28%, 13%);
+}
+section.testimonial-section .testimonial-area {
+  padding: 3em;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5em;
+}
+section.testimonial-section .testimonial-area .testimonial-item:first-child {
+  position: relative;
+  z-index: 0;
+}
+section.testimonial-section .testimonial-area .testimonial-item:first-child::before {
+  content: url(../src/Images/bg-quotes.png);
+  position: absolute;
+  top: -22px;
+  left: -8px;
+  z-index: -1;
+}
+section.testimonial-section .testimonial-area .testimonial-item {
+  margin: 0 1em 1em;
+  padding: 3em 2em 1em 2em;
+  background-color: hsl(219, 30%, 18%);
+  width: 30%;
+}
+section.testimonial-section .testimonial-area .testimonial-item .testimonial-profile {
+  display: flex;
+  align-items: center;
+}
+section.testimonial-section .testimonial-area .testimonial-item .testimonial-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+section.testimonial-section .testimonial-area .testimonial-item .testimonial-profile p {
+  margin: 0;
+}
+section.testimonial-section .testimonial-area .testimonial-item .testimonial-profile p.testimonial-name {
+  font-weight: 700;
+}
+@media screen and (max-width: 920px) {
+  section.productive-section .productive-image,
+  section.productive-section .productive-text {
+    padding: 0 2em;
   }
-  to {
-    transform: rotate(360deg);
+  section.testimonial-section .testimonial-area .testimonial-item {
+    width: 45%;
+    margin-bottom: 1em;
+  }
+  section.features-section .features-area .features-item {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  section.productive-section .productive-image,
+  section.productive-section .productive-text {
+    width: 100%;
+    padding: 0 2em;
+  }
+  section.testimonial-section .testimonial-area .testimonial-item {
+    width: 100%;
+    margin-bottom: 1em;
   }
 }
